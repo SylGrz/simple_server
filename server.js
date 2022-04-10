@@ -3,7 +3,7 @@ const port = process.env.PORT || 8080;
 
 const requestListener = function (req, res) {
   res.writeHead(200);
-  res.end('Sylwia chce na wakacje');
+  res.end('Sylwia chce na długie wakacje');
 }
 
 const server = http.createServer(requestListener);
